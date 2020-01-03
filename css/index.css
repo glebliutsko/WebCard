@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: "Oswald";
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.contacts li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+
+.contacts a:hover {
+    color: #f00;
+}
+
+.contacts img {
+    margin-right: 5px;
+    height: 40px;
+}
