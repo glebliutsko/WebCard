@@ -39,3 +39,15 @@ main {
     margin-right: 5px;
     height: 40px;
 }
+
+.contacts .select {
+    display: none;
+}
+
+.contacts a:hover .select {
+    display: flex;
+}
+
+.contacts a:hover .no-select {
+    display: none;
+}
